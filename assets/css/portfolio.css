@@ -31,7 +31,8 @@ a {
       text-decoration: none;
       color: #ffffff;
       font-size: 18px;
-      padding-top: 20px;
+      padding-top: 24px;
+      font-weight: bold;
 }
 
 .border {
@@ -46,8 +47,9 @@ a {
 
 .gallery {
     display: grid;
-    grid-template-columns:  250px 250px;
+    grid-template-columns:  250px 250px 250px;
     grid-gap: 10px;
     background-color: #ffffff;
+    width: 770px;
+    margin: 0 auto;
 }
-
